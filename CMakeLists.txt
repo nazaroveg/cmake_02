@@ -1,0 +1,32 @@
+cmake_minimum_required(3.22.2)
+project(multi_03_project)
+
+set (SOURCE
+multi_class_main.cpp
+multi_class_triangle.cpp
+multi_class_Figure.cpp
+multi_class_Isosceles_triangle.cpp
+multi_class_Equilateral_triangle.cpp
+multi_class_Parallelogram.cpp
+multi_class_Quadrilateral.cpp
+multi_class_Rectangle.cpp
+multi_class_Rhombus.cpp
+multi_class_Right_triangle.cpp
+multi_class_Square.cpp
+
+
+set(HEADER_SET
+multi_class_Equilateral_triangle.h
+multi_class_Firure.h
+multi_class_Isosceles_triangle.h
+multi_class_Parallelogram.h
+multi_class_Quadrilateral.h
+multi_class_Rectangle.h
+multi_class_Rhombus.h
+multi_class_Right_triangle.h
+multi_class_Square.h
+multi_class_triangle.h
+)
+
+add_executable(multi_03 ${SOURCE} ${HEADERS} )
+
