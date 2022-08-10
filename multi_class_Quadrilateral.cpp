@@ -1,7 +1,7 @@
 ﻿
 
 #include "multi_class_Quadrilateral.h"
-
+#include <iostream>
 
 
 Quadrilateral::Quadrilateral(const int A, int B, int C, int D, int a, int b, int c, int d, std::string name) :

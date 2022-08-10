@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include "multi_class_Firure.h"
 #include <string>
-#include <iostream>
+
 
 
 class Triangle : public Figure

@@ -1,7 +1,7 @@
 ﻿
 
 #include "multi_class_triangle.h"
-
+#include <iostream>
  
 
 Triangle::Triangle(const int A, int B, int C, int a, int b, int c, std::string name):

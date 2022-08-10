@@ -12,6 +12,7 @@
 #include "multi_class_Rhombus.h"
 #include "multi_class_Right_triangle.h"
 #include "multi_class_Square.h"
+#include <clocale>
 
 
 
@@ -19,8 +20,8 @@
 
 int main()
 {
-	setlocale(LC_ALL, "RUS");
 	
+	setlocale(LC_ALL, "RUS");
 	
 	Triangle tr{ 50,60,70,10,20,30, "Треугольник" };
 	Right_triangle Rt{ 50, 60, 10, 20, 30 };

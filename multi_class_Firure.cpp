@@ -1,6 +1,6 @@
 ﻿
 #include "multi_class_Firure.h"
-
+#include <iostream>
 
 Figure::Figure (const int sides_count = 0, std::string name = "Фигура") : sides_count(sides_count), name(name) 
 {
