@@ -2,7 +2,7 @@
 //
 
 
-#include "multi_class_Firure.h"
+#include "multi_class_Figure.h"
 #include "multi_class_triangle.h"
 #include "multi_class_Equilateral_triangle.h"
 #include "multi_class_Isosceles_triangle.h"
