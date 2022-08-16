@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "multi_class_Firure.h"
+#include "multi_class_Figure.h"
 #include <string>
 
 
